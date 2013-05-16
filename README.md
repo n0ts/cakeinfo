@@ -15,9 +15,10 @@ This cakeinfo is embedded version.
 How to use cakeinfo
 ------
 
+Copy to cakeinfo.php to your app/Vendor directory.
+
 ### Controller ###
 ~~~ php
-App::uses('Sanitize', 'Utility');
 App::import('Vendor', 'cakeinfo');
 
 class FooController extends AppController {
@@ -37,5 +38,5 @@ class FooController extends AppController {
 
 ### View ###
 
-Copy to cakeinfo.ctp to your View path.
+Copy to cakeinfo.ctp to your view.
 
