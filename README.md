@@ -16,6 +16,7 @@ How to use cakeinfo
 ------
 
 ### Controller ###
+~~~ php
 App::uses('Sanitize', 'Utility');
 App::import('Vendor', 'cakeinfo');
 
@@ -31,6 +32,7 @@ class FooController extends AppController {
     $this->layout = null;
     $this->set('info', $info);
 }
+~~~
 
 
 ### View ###
