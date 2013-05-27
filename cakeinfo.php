@@ -402,4 +402,3 @@ class CakeInfo {
 //    unset($info->values['Database']);
 //}
 ?>
-
